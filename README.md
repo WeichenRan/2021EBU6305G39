@@ -7,3 +7,4 @@
 ### Yunhui Wang, 2019213251, 190899417, 2019213251@bupt.edu.cn
 ### Haiwen Zhang, 2019213266, 190900344, 2019213266@bupt.edu.cn 
 ### Jiaqi Zhang, 2019213161, 190900229, cn-jackie@outlook.com
+Assigned TA：Anyi Zhang, zhanganyi@bupt.edu.cn
