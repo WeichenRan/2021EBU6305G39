@@ -1,0 +1,23 @@
+.contact{
+    text-align:center;
+}
+.title1{
+    font-size:30px;
+}
+.title2{
+    padding-top:10px;
+    padding-bottom:30px;
+    font-size:25px;
+}
+.form{
+    padding-top:25px;
+    display:flex;
+    justify-content:center;
+}
+.textarea1{
+    padding-right:50px;
+}
+.textarea2{
+    text-align:center;
+    padding-left:50px;
+}

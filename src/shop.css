@@ -1,0 +1,34 @@
+.shop{
+    text-align:center;
+    width:78%;
+    margin-left:11%;
+    border:1px solid red;
+}
+.title{
+    padding-top:10%;
+    padding-bottom:4%;
+}
+.form{
+    display:flex;
+    justify-content:space-around;
+    padding-bottom:3%;
+}
+.option{
+    width:20%;
+    height:30px;
+}
+.bigimagearea{
+    margin-bottom:30px;
+    border:1px solid red;
+}
+.imagearea{
+    width:100%;
+    height:33%;
+    display:flex;
+    justify-content:space-around;
+    margin-bottom:15px;
+    padding-bottom:2%;
+}
+.imagearea div{
+    width:32%;
+}
