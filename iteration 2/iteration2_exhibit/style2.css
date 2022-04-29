@@ -1,0 +1,229 @@
+
+
+
+
+/* ------------------------------------
+19.Single Events Area Start Here 
+---------------------------------------*/
+.single-events-area {
+  padding: 100px 100px;
+}
+/*title CSS */
+.single-events-area .page-title {
+  border-bottom: 2px solid #f4f4f4;
+  display: block;
+  width: 100%;
+  margin: 0 0 26px;
+}
+.single-events-area .page-title h2 {
+  color: #07448d;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+}
+
+.single-events-area .events-area {
+  padding: 0;
+  margin-right: 30px;
+}
+.single-events-area .events-area .images {
+  margin-bottom: 30px;
+}
+.single-events-area .events-area .images a img{
+  width: 100%;
+}
+.single-events-area .events-area .images a img:hover {
+  opacity: 0.9;
+}
+
+.single-events-area .events-area .events-details h3 {
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 20px;
+}
+.single-events-area .events-area .events-details h3 a {
+  color: #07448d;
+  font-weight: 400;
+  font-size: 25px;
+}
+.single-events-area .events-area .events-details .events-informations {
+  border-bottom: 1px solid #dddddd;
+  overflow: hidden;
+  padding-bottom: 40px;
+}
+.single-events-area .events-area .events-details .events-informations ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.single-events-area .events-area .events-details .events-informations ul li {
+  color: #707070;
+  width: 47%;
+  float: left;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.single-events-area .events-area .events-details .events-informations ul li i {
+  margin-right: 10px;
+  font-size: 12px;
+  color: #cfcfcf;
+}
+
+.single-events-area .events-area .events-text {
+  padding: 30px 0;
+}
+
+.single-events-area .events-area .events-text p {
+  color: #707070;
+}
+/*
+.single-events-area .events-area .events-text .buy-ticket a {
+  color: #ffffff;
+  display: inline-block;
+  font-weight: 600;
+  padding: 10px 30px;
+  position: relative;
+  text-transform: uppercase;
+  top: 40%;
+  background: #385a57;
+  transition: all .5s;
+}
+.single-events-area .events-area .events-text .buy-ticket a:hover {
+  background: #547d79;
+}
+.single-events-area .events-area .events-text .buy-ticket a i {
+  margin-right: 15px;
+}
+*/
+
+.single-events-area .events-area .next-prev-button {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #ededed;
+}
+.single-events-area .events-area .next-prev-button ul {
+  text-align: left;
+}
+.single-events-area .events-area .next-prev-button ul li {
+  display: inline-block;
+}
+.single-events-area .events-area .next-prev-button ul li:last-child {
+  float: right;
+}
+
+.single-events-area .events-area .next-prev-button ul li a {
+  color: #07448d;
+  display: inline-block;
+  font-weight: 600;
+  padding: 10px 30px;
+  position: relative;
+  text-transform: uppercase;
+  top: 40%;
+  border: 1.5px solid #07448d;
+  border-radius: 20px;
+  transition: all .5s;
+}
+.single-events-area .events-area .next-prev-button ul li a:hover {
+  background: #07448d;
+  color: #ffffff;
+}
+.single-events-area .events-area .next-prev-button ul li a i {
+  margin-right: 15px;
+}
+
+/*sidebar*/
+.sidebar-area .widget {
+  margin-bottom: 60px;
+
+}
+.sidebar-area .widget h2 {
+  font-size: 24px;
+  color: #07448d;
+  font-family: 'Lato', sans-serif;
+  border-bottom: 1px solid #07448d;
+  padding-bottom: 15px;
+}
+/*
+.sidebar-area .widget h2 i {
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.sidebar-area .widget ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar-area .widget ul li {
+  display: block;
+  margin-bottom: 15px;
+}
+.sidebar-area .widget ul li a {
+  display: block;
+  color: #707070;
+}
+.sidebar-area .widget ul li a span {
+  font-weight: 600;
+  color: #333333;
+}
+.sidebar-area .widget ul li a i {
+  margin: 5px 20px 0 0;
+  float: left;
+}
+.sidebar-area .widget ul li a p {
+  display: table;
+}
+*/
+
+.sidebar-area .widget .media {
+  margin-bottom: 15px;
+}
+.sidebar-area .widget .media .pull-left {
+  margin-right: 5px;
+}
+.sidebar-area .widget .media .pull-left a img {
+  width: 80px;
+  height: 80px;
+}
+.sidebar-area .widget .media .pull-left a img:hover {
+  opacity: .9;
+}
+/*media-body*/
+.sidebar-area .widget .media .media-body h4 {
+  margin-bottom: 20px;
+}
+.sidebar-area .widget .media .media-body h4 a {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  color: #707070;
+}
+.sidebar-area .widget .media .media-body h4 a:hover {
+  color: #07448d;
+}
+
+.sidebar-area .widget .media .media-body ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.sidebar-area .widget .media .media-body ul li {
+  display: block;
+  margin-bottom: 8px;
+}
+
+/*
+.sidebar-area .widget .media .media-body ul li a {
+  display: block;
+  color: #707070;
+}
+
+.sidebar-area .widget .media .media-body ul li a span {
+  font-weight: 600;
+  color: #333333;
+}
+.sidebar-area .widget .media .media-body ul li a i {
+  margin-right: 7px;
+}
+*/
