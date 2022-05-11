@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- single exhibit style -->
+    <link rel="stylesheet" href="css/single/single-style.css">
+
+    <!-- search page style -->
+    <link href="css/single/search-style.css" rel="stylesheet">
+
+    <!-- favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/single/icon.jpeg">
+
+    <!-- Fonts URL -->
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700%7CPlayfair+Display:400,500,600,700,800,900%7CWork+Sans:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <!-- Plugins CSS -->
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/single/nav-shape.css">
+
+</head>
+
+
+<body>
+<!-- navi-->
+<div class="page-wrapper">
+    <nav class="main-nav-one stricky">
+        <div class="container">
+            <div class="inner-container">
+                <div class="logo-box">
+                    <a href="index.html">
+                        <img src="images/single/logo-1-1.png" alt="" width="120">
+                    </a>
+
+                </div><!-- /.logo-box -->
+                <div class="main-nav__main-navigation">
+                    <ul class="main-nav__navigation-box">
+                        <li>
+                            <a href="index.html">Home</a>
+
+                        </li>
+                        <li>
+                            <a href="about.html">Times</a>
+
+                        </li>
+                        <li>
+                            <a href="collection-grid.html">Collections</a>
+                        </li>
+                        <li>
+                            <a href="#">Products</a>
+                        </li>
+
+                        <li><a href="contact.html"><img src="images/single/search.svg" width = "25"></a></li>
+
+
+                    </ul><!-- /.main-nav__navigation-box -->
+                </div><!-- /.main-nav__main-navigation -->
+                <div class="main-nav__right">
+                    <div class="main-nav-mobile">
+                        <li><img src="images/single/down.png" alt="" width="30">
+                            <ul>
+                                <li><a href="news-standard.html">Home</a></li>
+                                <li><a href="news-grid.html">Times</a></li>
+                                <li><a href="news-masonary.html">Collections</a></li>
+                                <li><a href="news-details.html">Products</a></li>
+                                <li><a href="contact.html"><img src="images/single/search.svg" width = "20"></a></li>
+                            </ul>
+                        </li>
+                    </div>
+                </div><!-- /.main-nav__right -->
+            </div><!-- /.inner-container -->
+        </div><!-- /.container -->
+    </nav><!-- /.main-nav-one -->
+</div>
+<!-- search page-->
+<div class="header">
+        <form>
+            <h1>Collection Search</h1>
+            <div class="form-box">
+                <input type="text" id="nn" class="search-field" placeholder="find collections by name">
+                <a href="#" onclick="getKey()"><img src="images/single/search.svg" width = "20"></a>
+            </div>
+            <div class="search-item" id="1">
+                <a href="single-simu.html">Simuwu Tripod</a>
+            </div>
+            <div class="search-item" id="2">
+                <a href="#">SiXin Stone-bull</a>
+            </div>
+
+
+        </form>
+
+</div>
+
+
+<script>
+    var key;
+
+    function getKey(){
+        key=document.getElementById("nn").value;
+        setNone();
+        setInline(key);
+
+    }
+
+    function setNone(){
+        document.getElementById("1").style.display="none";
+        document.getElementById("2").style.display="none";
+
+    }
+
+    function setInline(key) {
+        if (key == "1") {
+            document.getElementById("1").style.display = "block";
+        }
+
+        if (key == "2") {
+            document.getElementById("2").style.display = "block";
+        }
+    }
+</script>
+
+
+</body>
+</html>
