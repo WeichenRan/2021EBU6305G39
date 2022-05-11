@@ -1,0 +1,155 @@
+.shop{
+    text-align:center;
+    width:80%;
+    margin-left:11%;
+}
+.title{
+    padding-top:8%;
+    padding-bottom:3%;
+    font-family:"Microsoft Yahei";
+    font-size:26px;
+    display:flex;
+    justify-content:center;
+}
+@media only screen and (max-width:550px){
+    .title{
+    font-size:20px;
+    padding-bottom:20px;
+    }
+}
+.bigimagearea{
+    height:100%;
+}
+#page1,#page2,#page3{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+}
+.every_row{
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+    flex-direction:row;
+    margin-top:0%;
+    flex-wrap:wrap;
+}
+.imagearea{
+    width:32%;
+    height:300px;
+    display:flex;
+    justify-content:space-around;
+}
+@media only screen and (max-width:1300px){
+    .imagearea{
+        height:230px;
+    }
+}
+@media only screen and (max-width:1080px){
+    .imagearea{
+        height:195px;
+    }
+}
+@media only screen and (max-width:750px){
+    .imagearea{
+        height:280px;
+        width:70%;
+    }
+}
+@media only screen and (max-width:550px){
+    .imagearea{
+        width:70%;
+        height:210px;
+    }
+}
+.imagearea div{
+    width:100%;
+}
+.cat,.sorts{
+     list-style:none;
+     margin-top:3%;
+     width:100%;
+     height:30px;
+     display:flex;
+     justify-content:space-around;
+     align-items:center;
+     font-family:"Microsoft Yahei";
+     color:DimGray;
+}
+.sorts a{
+     text-decoration:none;
+     color:DimGray;
+}
+.sorts a:focus {
+    color:black;
+    font-size:22px;
+}
+@media only screen and (max-width:750px){
+    .sorts a{
+        font-size:16px;
+    }
+}
+@media only screen and (max-width:550px){
+    .sorts a{
+        font-size:14px;
+    }
+}
+.cat a{
+     text-decoration:none;
+     color:DimGray;
+}
+.pages,.categories{
+     display:flex;
+     justify-content:center;
+     font-size: 18px;
+}
+.pages{
+    margin-top:40px;
+    margin-bottom:30px;
+}
+.item{
+    position:relative;
+    width:100%;
+    height:100%;
+}
+.cover{
+	width: 100%;
+	height: 75%;
+	background: rgba(0,0,0,0.3);
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #fff;
+	text-align: center;
+	line-height: 82%;
+	font-size: 30px;
+	opacity:0;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+@media only screen and (max-width:1300px){
+    .cover{
+        font-size:25px;
+    }
+}
+@media only screen and (max-width:1080px){
+    .cover{
+        font-size:20px;
+    }
+}
+.cover a{
+    text-decoration:none;
+    color:White;
+}
+.item:hover .cover{
+    opacity:1;
+}
+.active{
+    width:30px;
+    height:30px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    background-color: DarkGoldenrod;
+    font-size:20px;
+}
