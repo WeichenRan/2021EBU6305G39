@@ -93,7 +93,7 @@
         var now_pro = $(this).closest('li').find('a').text();
         if( now_pro == pro1_name[i] ){
           
-          $("#proImg1").attr("src", "img/" + now_pro  +  ".png" ); 
+          $("#proImg1").attr("src", "images/creative/" + now_pro  +  ".png" ); 
           $("#proImg1").toggle();
           $("#proImg1").fadeIn(1000);
           break
@@ -107,7 +107,7 @@
         console.log(now_pro);
         if( now_pro == pro2_name[i] ){
           
-          $("#proImg2").attr("src", "img/" + now_pro  +  ".png" );
+          $("#proImg2").attr("src", "images/creative/" + now_pro  +  ".png" );
           $("#proImg2").toggle();
           $("#proImg2").fadeToggle();
 

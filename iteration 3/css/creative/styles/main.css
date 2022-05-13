@@ -1163,28 +1163,28 @@ website:   	http://www.themepunch.com
     font-size: 18px;
     font-weight: 700; }
 
-.services .first-item {
-  background-image: url(../img/services-bg-01.png);
-  background-position: 350% center;
-  -webkit-transition: all .3s;
-  transition: all .3s; }
-  .services .first-item:hover {
-    background-position: 320% center; }
-
-.services .second-item {
-  background-image: url(../img/services-bg-02.png);
-  background-position: 980% center;
-  -webkit-transition: all .3s;
-  transition: all .3s; }
-  .services .second-item:hover {
-    background-position: 900% center; }
-
-.services .third-item {
-  background-image: url(../img/services-bg-03.png);
-  background-position: 170% center;
-  -webkit-transition: all .3s;
-  transition: all .3s; }
-  .services .third-item:hover {
-    background-position: 160% center; }
+    .services .first-item {
+      background-image: url(../../../images/creative/services-bg-01.png);
+      background-position: 350% center;
+      -webkit-transition: all .3s;
+      transition: all .3s; }
+      .services .first-item:hover {
+        background-position: 320% center; }
+    
+    .services .second-item {
+      background-image: url(../../../images/creative/services-bg-02.png);
+      background-position: 350% center;
+      -webkit-transition: all .3s;
+      transition: all .3s; }
+      .services .second-item:hover {
+        background-position: 320% center; }
+    
+    .services .third-item {
+      background-image: url(../../../images/creative/services-bg-03.png);
+      background-position: 170% center;
+      -webkit-transition: all .3s;
+      transition: all .3s; }
+      .services .third-item:hover {
+        background-position: 160% center; }
 
 
