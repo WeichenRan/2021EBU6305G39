@@ -243,10 +243,10 @@ ul, li {
 
 #border #line.two {
     width: 5px;
-    height: 54px;
+    height: 80px;
     background-color: #E74C3C;
     margin-left: -2px;
-    margin-top: 89px;
+    margin-top: 200px;
     transition: all 0.4s ease-in-out;
 }
 
@@ -352,7 +352,7 @@ h2 {
 
 
 p {text-indent: 1cm}
-
+a {text-decoration: none}
 
 
 
