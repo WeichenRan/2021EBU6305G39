@@ -414,5 +414,26 @@ a {text-decoration: none}
     margin-right: 15px;
 }
 
+/*@media (max-width:576px){.main-nav__right{display: flex} #left-side{display: none}}*/
+@media (max-width:899px){
+    .list{
+        display: flex;
+    }
+    #left-side{display: none}
+    .wrapper{
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+        display: block;
+
+    }
+    #right-side{
+        width: 100%;
+    }
+
+}
+/*@media (min-width:992px){.main-nav__right{display: none}}*/
+@media (min-width:900px){.list{display: none}}
+
 
 
