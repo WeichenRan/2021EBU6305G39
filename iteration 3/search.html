@@ -202,7 +202,9 @@
             <div class="search-item" id="42">
                 <a href="single42.html" id="a42">iron plough</a>
             </div>
-
+            <div class="search-item" id="msg">
+                <span>Sorry! No relevant search results</span>
+            </div>
 
 
 
@@ -225,22 +227,30 @@
         for(i=1;i<43;i++){
             document.getElementById(i.toString()).style.display="none";
         }
+        document.getElementById("msg").style.display = "none";
     }
 
     function setInline(key) {
+        cnt=0;
         for(i=1;i<43;i++){
             s=document.querySelector("#a"+i.toString()).innerHTML;
+            if(cnt>15){
+                break;
+            }
 
             if(key==i.toString()) {
                 document.getElementById(i.toString()).style.display = "block";
+                cnt++;
             }
-
 
             else if(fuzzyMatch(s,key)){
                 document.getElementById(i.toString()).style.display = "block";
+                cnt++;
             }
         }
-
+        if(cnt==0){
+            document.getElementById("msg").style.display = "block";
+        }
 
     }
 
