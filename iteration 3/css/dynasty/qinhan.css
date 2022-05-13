@@ -389,10 +389,11 @@ a {text-decoration: none}
 }
 .learnMore ul li {
     display: inline-block;
+    text-align: center;
 }
-.learnMore ul li:last-child {
-    float: right;
-}
+/*.learnMore ul li:last-child {*/
+/*    float: right;*/
+/*}*/
 
 .learnMore ul li a {
     color: #07448d;
@@ -429,6 +430,9 @@ a {text-decoration: none}
     }
     #right-side{
         width: 100%;
+    }
+    #border {
+        display: none;
     }
 
 }
