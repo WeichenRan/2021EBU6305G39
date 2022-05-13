@@ -56,6 +56,8 @@
 
     .show-product{
         background-image: url(../homePage/chinaback-2.png);
+        background-size: cover;
+        background-position: center;
         width: 100%;
     }
 
@@ -332,9 +334,7 @@
     
     }
 
-    .show-product{
-        background-image: none;
-    }
+
 
 
 
@@ -426,6 +426,10 @@
       .round-out .inner .round-img h3 a{
         font-size: 23px;
     
+    }
+
+    .show-product{
+        background-image: none;
     }
 
 
