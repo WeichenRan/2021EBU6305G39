@@ -1,83 +1,171 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <title>Exhibition</title>
+    <meta charset="UTF-8">
+    <title>jquery svg产品切换窗口特效</title>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/dynasty/carousel.css">
-    <style>
-        body {
-            background: #fafafa;
-            text-align: center;
-        }
 
-        .container {
-            /*margin: 150px auto;*/
-            /*max-width: 1000px;*/
-            text-align: center;
-        }
-
-        h1 {
-            margin-bottom: 5rem;
-            text-align: center;
-        }
-
-        .imgdiv img {
-            width: 100%;
-        }
-
-
-        #divout:hover #arrow {
-            opacity: .9;
-        }
-
-        #arrow img {
-            cursor: pointer;
-        }
-
-
-
-        .title{
-            text-align: center;
-            font-size: 36px;
-            font-weight: 2000;
-        }
-    </style>
+    <!--    <link rel="stylesheet" href="./style.css">-->
 </head>
-
 <body>
+<!-- partial:index.partial.html -->
+<!-- ICONS -->
+<div id="wrapper">
+    <div id="left-side">
+        <ul>
+            <li class="choose active">
+                <div class="period">
+                    Chinese Origin
+                </div>
+                <div class="time">
+                    <div class="year">
+                        5000 B.C.
+                    </div>
+                    <br>
+                    <div class="year">
+                        1046 B.C.
+                    </div>
+                </div>
+                <br>
+            </li>
+            <li class="choose">
+                <div class="period">
+                    Spring, Autumn and Warring States
+                </div>
+                <div class="time">
+                    <div class="year">
+                        771 B.C.
+                    </div>
+                    <br>
+                    <div class="year">
+                        221 B.C.
+                    </div>
+                </div>
+                <br>
+            </li>
+            <li class="choose">
+                <div class="period">
+                    Qin and Han Periods
+                </div>
+                <div class="time">
+                    <div class="year">
+                        221 B.C.
+                    </div>
+                    <br>
+                    <div class="year">
+                        220 A.D.
+                    </div>
+                </div>
+                <br>
+            </li>
+            <li class="choose">
+                <div class="period">
+                    Tang and Song Periods
+                </div>
+                <div class="time">
+                    <div class="year">
+                        918 A.D.
+                    </div>
+                    <br>
+                    <div class="year">
+                        1279 A.D.
+                    </div>
+                </div>
+                <br>
+            </li>
+            <li class="choose">
+                <div class="period">
+                    Ming and Qing Periods
+                </div>
+                <div class="time">
+                    <div class="year">
+                        1368 A.D.
+                    </div>
+                    <br>
+                    <div class="year">
+                        1912 A.D.
+                    </div>
+                </div>
+                <br>
+            </li>
+            <li class="choose">
+                <div class="period">
+                    Republic of China
+                </div>
+                <div class="time">
+                    <div class="year">
+                        1912 A.D.
+                    </div>
+                    <br>
+                    <div class="year">
+                        1949 A.D.
+                    </div>
+                </div>
+                <br>
+            </li>
 
-<div class="container">
+        </ul>
 
-    <div class="gallery">
-        <div class="gallery-container">
-            <img class="gallery-item" src="../img/1.jpg">
-            <img class="gallery-item" src="../img/2.jpg">
-            <img class="gallery-item" src="../img/3.jpg">
-            <img class="gallery-item" src="../img/4.jpg">
-            <img class="gallery-item" src="../img/5.jpg">
+    </div>
+    <div id="border">
+        <div id="line" class="one"></div>
+    </div>
+    <div id="right-side">
+        <div id="first" class="active">
+            <div class="container">
+                <div class="gallery">
+                    <div class="gallery-container">
+                        <img class="gallery-item" src="images/single/1.jpeg">
+                        <img class="gallery-item" src="images/single/2.png">
+                        <img class="gallery-item" src="images/single/3.jpg">
+                        <img class="gallery-item" src="images/single/4.jpg">
+                        <img class="gallery-item" src="images/single/5.jpg">
+                    </div>
+                    <div class="gallery-controls"></div>
+                </div>
+            </div>
+            <script src="js/dynasty/carousel.js"></script>
+            <h1>Chinese Origin</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at viverra est, eu finibus mauris. Quisque tempus vestibulum fringilla. Morbi tortor eros, sollicitudin eu arcu sit amet, aliquet sagittis dolor.</p>
         </div>
-        <div class="gallery-controls"></div>
-    </div>
-    <div class="title">
-        <br>
-        Chinese Origin
+        <div id="second">
+            <div class="icon big">
+                <svg viewBox="0 0 32 32">
+                    <g filter="">
+                        <use xlink:href="#credit-card"></use>
+                    </g>
+                </svg>
+            </div>
+            <h1>Pay for it</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at viverra est, eu finibus mauris. Quisque tempus vestibulum fringilla. Morbi tortor eros, sollicitudin eu arcu sit amet, aliquet sagittis dolor. </p>
+        </div>
+        <div id="third">
+            <div class="icon big">
+                <svg viewBox="0 0 32 32">
+                    <g filter="">
+                        <use xlink:href="#gift"></use>
+                    </g>
+                </svg>
+            </div>
+            <h1>We will wrap it</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at viverra est, eu finibus mauris. Quisque tempus vestibulum fringilla. Morbi tortor eros, sollicitudin eu arcu sit amet, aliquet sagittis dolor. </p>
+        </div>
+        <div id="fourth">
+            <div class="icon big">
+                <svg viewBox="0 0 32 32">
+                    <g filter="">
+                        <use xlink:href="#package"></use>
+                    </g>
+                </svg>
+            </div>
+            <h1>Ship it</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at viverra est, eu finibus mauris. Quisque tempus vestibulum fringilla. Morbi tortor eros, sollicitudin eu arcu sit amet, aliquet sagittis dolor. </p>
+        </div>
     </div>
 </div>
-<script src="js/dynasty/carousel.js"></script>
-
-
-
-
-<div class="content">
-    <br>
-    balabalabalalalalalalalalalbalalalalabalalabalalababalalababalalabalalababalalalalabalabalabalalalalalalalalalbalala
-    lalabalalabalalababalalababalalabalalababalalalalabalabalabalalalalalalalalalbalalalalabalalabalalababalalababalala
-    lalababalalalala
-</div>
-
+<!-- partial -->
 </body>
-
 </html>
