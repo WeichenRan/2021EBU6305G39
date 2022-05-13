@@ -6,7 +6,8 @@
     align-items: center;
     display: flex;
     height: 400px;
-    margin: 0 auto;
+    margin-top: 10%;
+    /*margin: 0 auto;*/
     max-width: 1000px;
     position: relative
 }
@@ -433,6 +434,9 @@ a {text-decoration: none}
     }
     #border {
         display: none;
+    }
+    .gallery-container{
+        margin-top: 10%;
     }
 
 }
