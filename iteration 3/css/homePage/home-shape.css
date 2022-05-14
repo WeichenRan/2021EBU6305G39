@@ -54,6 +54,14 @@
         font-size: 30px;
     }
 
+    .mask h1{
+        font-size: 17px;
+    }
+
+    .mask p{
+        font-size: 15px;
+    }
+
     .show-product{
         background-image: url(../homePage/chinaback-2.png);
         background-size: cover;
@@ -465,6 +473,13 @@
         padding-right: 40px;
     }
 
+    .mask p{
+        font-size: 12px;
+    }
+
+    .mask h1{
+        font-size: 15px;
+    }
 
 
 
@@ -549,6 +564,14 @@
         max-height: 350px;
 
       }
+
+      .mask h1{
+        font-size: 12px;
+    }
+
+      .mask p{
+        font-size: 10px;
+    }
 
 }
 

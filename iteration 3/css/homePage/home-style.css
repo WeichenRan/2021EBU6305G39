@@ -745,12 +745,9 @@ h6 {
     top: 0;
 }
 
-.mask h1{
-    font-size: 17px;
-}
+
 
 .mask p{
-	font-size: 15px;
 	padding-left: 10%;
 	padding-right: 10%;
     word-break: break-all;
