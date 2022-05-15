@@ -8,3 +8,9 @@
 ### Haiwen Zhang, 2019213266, 190900344, 2019213266@bupt.edu.cn 
 ### Jiaqi Zhang, 2019213161, 190900229, cn-jackie@outlook.com
 Assigned TA：Anyi Zhang, zhanganyi@bupt.edu.cn
+
+
+**Declaration**
+The commits in the main branch are not Accurate contribution of team members
+Some members of the group are difficult to stably connect to GitHub, so some code changes in GitHub are uploaded by some other members
+An issues is opend to clarify the work content of each member
