@@ -11,6 +11,6 @@ Assigned TA：Anyi Zhang, zhanganyi@bupt.edu.cn
 
 
 **Declaration**
-The commits in the main branch are not Accurate contribution of team members
-Some members of the group are difficult to stably connect to GitHub, so some code changes in GitHub are uploaded by some other members
-An issues is opend to clarify the work content of each member
+The commits in the main branch are not Accurate contribution of team members. 
+Some members of the group are difficult to stably connect to GitHub, so some code changes in GitHub are uploaded by some other members. 
+An issues is opend to clarify the work content of each member.
